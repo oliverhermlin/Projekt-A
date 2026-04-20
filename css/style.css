@@ -1,0 +1,26 @@
+input {
+    padding: 12px 20px; /* Sisu ümber ruumi */
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; /* Ümarad nurgad */
+    body { margin: 0; padding: 0; }
+    
+    width: 400px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Kolm võrdset veergu */
+    background-color: #f2f2f2;
+}
+@media (max-width: 600px) {
+    input {
+        width: 90%; /* Mobiilis võtab kast rohkem ruumi */
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Asjad virna */
+    align-items: center;    /* Horisontaalselt keskele */
+    justify-content: center;/* Vertikaalselt keskele */
+    height: 80vh;           /* Ekraani kõrgus */
+}
