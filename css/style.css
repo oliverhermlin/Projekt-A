@@ -1,26 +1,44 @@
-input {
-    padding: 12px 20px; /* Sisu ümber ruumi */
-    border: 1px solid #dfe1e5;
-    border-radius: 24px; /* Ümarad nurgad */
-    body { margin: 0; padding: 0; }
-    
-    width: 400px;
-}
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Kolm võrdset veergu */
-    background-color: #f2f2f2;
-}
-@media (max-width: 600px) {
-    input {
-        width: 90%; /* Mobiilis võtab kast rohkem ruumi */
-    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 main {
     display: flex;
-    flex-direction: column; /* Asjad virna */
-    align-items: center;    /* Horisontaalselt keskele */
-    justify-content: center;/* Vertikaalselt keskele */
-    height: 80vh;           /* Ekraani kõrgus */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+img {
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 400px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 90%;
+    }
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
