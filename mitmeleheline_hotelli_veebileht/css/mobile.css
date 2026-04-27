@@ -1,0 +1,24 @@
+#showcase {
+height: 100%;
+}
+#showcase .showcase-content {
+    padding-top: 70px; padding-bottom: 30px;
+
+}
+#info {
+    height: 500px;
+}
+/* info */
+
+#info.info-img { 
+    display: none;
+}
+
+#info .info-content {
+    float: none; width: 100%;
+}
+
+/* features */
+#features .box {
+float: none; width: 100%;
+}

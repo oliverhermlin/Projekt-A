@@ -24,7 +24,10 @@ input {
     width: 400px;
     font-size: 16px;
 }
-
+#testimonials {
+    height: 600px;
+    background: url("../img/test-bg.jpg") no-repeat center center/cover;
+}
 input:focus {
     outline: none;
     box-shadow: 0 1px 6px rgba(32,33,36,0.28);
